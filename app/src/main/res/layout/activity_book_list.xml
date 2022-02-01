@@ -8,9 +8,8 @@
         android:id="@+id/rvBooks"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
-
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_below="@id/toolbar"
+        android:fitsSystemWindows="true"></androidx.recyclerview.widget.RecyclerView>
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -18,10 +17,5 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"></androidx.appcompat.widget.Toolbar>
-
-    <SearchView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
 
 </RelativeLayout>
